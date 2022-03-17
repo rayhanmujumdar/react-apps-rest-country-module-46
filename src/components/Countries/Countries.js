@@ -10,7 +10,7 @@ const Countries = () => {
     },[])
     return (
         <div> 
-            <h1 className='py-3'>Hello Countries</h1>
+            <h1 className='py-3'>Hello all madarchod Countries</h1>
             <h4 className='p-3'>Available country: {countries.length}</h4>
             <div className='country-container'>
             {
