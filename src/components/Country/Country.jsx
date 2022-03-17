@@ -2,7 +2,7 @@ import './Country.css'
 const Country = (props) => {
     const {name,flags,area,population} = props.countryData
     return (
-        <div className='country'>
+        <div className='country col-sm-12 col-md-6 col-lg-4'>
             <h1 className=''>Name: {name.common}</h1>
             <img src={flags.png} alt="" />
             <p>area: {area}</p>
