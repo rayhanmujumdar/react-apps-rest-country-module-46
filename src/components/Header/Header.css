@@ -1,0 +1,25 @@
+nav{
+    height: 100px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+
+}
+nav a:hover{
+    color: aqua;
+    transform: rotate(360deg);
+    transition: all 0.8s;
+}
